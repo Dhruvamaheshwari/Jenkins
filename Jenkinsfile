@@ -83,10 +83,10 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'dhruvamaheshwari47/jenkins_devops'
-        DOCKER_TAG = 'latest'
-        CONTAINER_NAME = 'jenkins_devops_container'
-        PORT = '8080'
+        DOCKER_IMAGE    = 'dhruvamaheshwari47/jenkins_devops'
+        DOCKER_TAG      = 'latest'
+        CONTAINER_NAME  = 'jenkins_devops_container'
+        PORT            = '8080'
     }
 
     stages {
