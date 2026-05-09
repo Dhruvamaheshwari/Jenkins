@@ -29,7 +29,7 @@ app.post('/add', async (req, res) => {
 module.exports = app;
  
 if (require.main === module) {
-    app.listen(8000, () => {
+    app.listen(3000, () => {
         console.log("Server is running on port 8000");
     });
 }
